@@ -8,7 +8,7 @@
     "lint": "eslint src/**",
     "lint-fix": "eslint src/** --fix",
     "format": "prettier app.js **/*.js --write",
-    "success-message":"echo 'Thaks for committing $GIT_AUTHOR_NAME'"
+    "success-message":"echo 'Thank's for committing $GIT_AUTHOR_NAME'"
   },
   "keywords": [],
   "author": "",
