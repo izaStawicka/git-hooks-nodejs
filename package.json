@@ -7,7 +7,8 @@
     "test": "jest",
     "lint": "eslint src/**",
     "lint-fix": "eslint src/** --fix",
-    "format": "prettier app.js **/*.js --write"
+    "format": "prettier app.js **/*.js --write",
+    "success-message":"echo Thaks for committing $GIT_AUTHOR_NAME"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +24,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "post-commit": "npm run success-message"
     }
   },
   "lint-staged": {
