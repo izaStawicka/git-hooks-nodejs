@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint src/**",
     "lint-fix": "eslint src/** --fix",
-    "format":"prettier app.js **/*.js --write"
+    "format": "prettier app.js **/*.js --write"
   },
   "keywords": [],
   "author": "",
@@ -28,8 +28,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint",
-      "jest --findRelatedTests"
+      "eslint"
     ]
   }
 }
